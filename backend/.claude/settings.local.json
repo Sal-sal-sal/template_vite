@@ -1,15 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(cd \"C:/Users/Konstantin Li/Projects/template/backend\" && poetry lock --no-interaction 2>&1)",
       "Bash(*)",
       "Write(*)",
-      "Bash(cd \"C:/Users/Konstantin Li/Projects/template/backend\" && poetry install --no-interaction 2>&1)",
-      "Read(*)",
-      "Bash(cd \"C:/Users/Konstantin Li/Projects/template/backend\" && .venv/Scripts/python -c \"from app.config import settings; print\\('config OK:', settings.DATABASE_URL\\)\" 2>&1)",
-      "Bash(cd \"C:/Users/Konstantin Li/Projects/template/backend\" && .venv/Scripts/python -c \"from app.models.user import User; print\\('User model OK:', User.__tablename__\\)\" 2>&1)",
-      "Bash(cd \"C:/Users/Konstantin Li/Projects/template/backend\" && .venv/Scripts/python -c \"from app.schemas.user import UserCreate, UserResponse; print\\('Schemas OK'\\)\" 2>&1)",
-      "Bash(cd \"C:/Users/Konstantin Li/Projects/template/backend\" && git init 2>&1)"
+      "Read(*)"
     ]
   }
 }
